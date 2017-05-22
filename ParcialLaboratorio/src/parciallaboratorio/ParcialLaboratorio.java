@@ -19,9 +19,9 @@ public class ParcialLaboratorio {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        int numero1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese el primer numero1"));
-        int numero2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese el primer numero2"));
-        int numero3 = Integer.parseInt(JOptionPane.showInputDialog("ingrese el primer numero3"));
+        int numero1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese el primer numero"));
+        int numero2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese el Segundo numero"));
+        int numero3 = Integer.parseInt(JOptionPane.showInputDialog("ingrese el Tercer numero"));
 
         if (numero1 > numero2 && numero1 > numero3) {
             System.out.println(numero1);
